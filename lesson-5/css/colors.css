@@ -22,7 +22,8 @@ header {
 	/* STEP 1b: Select a HUE using the Hue Slider */
 	/* STEP 1c: De-Saturate the colour a bit, reduce the Lightness, and make the colour slightly transparent by adjusting the Alpha. */
 	/* STEP 1d: Copy the resulting RGBa value and replace the background-color below */
-	background-color: black;
+	/* If background colour has alpha set down, text stays opaque, if turning opacity down outside of background colour, the entire element is  */
+	background-color: rgba(127, 59, 173, 0.733);
 	padding: 1% 10%;
 }
 header h1 {
@@ -40,7 +41,7 @@ main h2 {
 
 	font-size: 500%;
 	margin: 0;	
-	color: white;
+	color: hsla(276, 44%, 48%, 0.733);
 }
 main p {
 	margin-top: 0;
@@ -51,8 +52,9 @@ footer {
 footer p {
 	font-size: 60%;
 	/* STEP 4: Set the <footer> element text to the same purple as in step 1 and 2, using a combination of hexadecimal color syntax and opacity. */
-	color: white;
-}
+	color: lab(59.64% 41.07 -41.96 / 0.733);
+;
+} 
 
 /* STEP 5: Adjust the HUE of the background-color of the <header>, the colour of the <h2>, and the colour of the <footer> text to a different value - note that this is more difficult with HEX and RGB colour notation */
 
