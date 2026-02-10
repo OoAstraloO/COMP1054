@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+html 
+{
+    font-size: 100%;
+}
+
+body 
+{
+    font-family: "Stoke", serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #222;
+}
+header,
+footer 
+{
+    background-color: #a1a0a1;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+}
+section:nth-of-type(3) > header
+{
+    background-color: #5dcded;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+}
+section:nth-of-type(2) > header
+{
+    background-color: #e3564e;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+}
+section:nth-of-type(1) > header
+{
+    background-color: #57ba80;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+main 
+{
+    font-family: "Winky Sans", sans-serif;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+article 
+{
+    flex: 3;
+}
+h1 
+{
+    font-family: "Stoke", serif;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.07em;
+    font-size: 2.5rem;
+}
+h2 
+{
+    font-family: "Stoke", serif;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.07em;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+p
+{
+    font-family: "Winky Sans", cursive;
+    margin-bottom: 1rem;
+}
+ul 
+{
+  list-style: none;
+  padding-left: 1.5rem;
+}
+li strong
+{
+    font-weight: normal;
+    font-style: italic;
+}
+small 
+{
+    font-size: 0.95rem;
+    font-style: italic;
+}
+footer small 
+{
+    font-size: 0.5rem;
+}
