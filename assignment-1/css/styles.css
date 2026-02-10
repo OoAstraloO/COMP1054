@@ -1,3 +1,4 @@
+/*Imported fonts from Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
@@ -21,28 +22,19 @@ footer
     padding: 1.5rem;
     text-align: center;
 }
-section:nth-of-type(3) > header
+/*Specfic styling of headers to have different backgorund colours*/
+section:nth-of-type(1) > header
 {
-    background-color: #5dcded;
-    color: #ffffff;
-    padding: 1.5rem;
-    text-align: center;
+    background-color: #57ba80;
 }
 section:nth-of-type(2) > header
 {
     background-color: #e3564e;
-    color: #ffffff;
-    padding: 1.5rem;
-    text-align: center;
 }
-section:nth-of-type(1) > header
+section:nth-of-type(3) > header
 {
-    background-color: #57ba80;
-    color: #ffffff;
-    padding: 1.5rem;
-    text-align: center;
+    background-color: #5dcded;
 }
-
 main 
 {
     font-family: "Winky Sans", sans-serif;
@@ -93,5 +85,5 @@ small
 }
 footer small 
 {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
